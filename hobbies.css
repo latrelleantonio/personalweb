@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: skyblue;
+}
+
+body {
+    background: linear-gradient( skyblue, cyan);
+
+}
+
+.logo {
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist {
+    display: flex;
+}
+.navlist a {
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover {
+    border-bottom: 2px solid blue;
+}
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 0 20%;
+}
+
+.intro {
+    height: 89vh; /* Set the height to 100% of the viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center the text within the div */
+    background: transparent;
+    flex-direction: column;
+}
+.intro h5{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.intro h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 98px;
+    line-height: 1;
+    color: #281380;
+    margin: 0 0 45px;
+}
+.intro h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-top: 20px;
+}
+
+.button {
+    height: 10vh; /* Set the height to 100% of the viewport height */
+    display: inline-block; /* Use flexbox for centering */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: transparent;
+    text-align: center;
+}
+
+.ctaa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: skyblue; 
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.ctaa:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Hover effect for the border on the "Watch Gameplay" link */
+.ctaa:hover {
+    border: 10px solid white;
+}
+
+
